@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-05-26T16:11:45.575Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="lID1YkmZAI7BqCUFyW9M" version="18.1.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-05-26T16:13:18.629Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="Vh-eEHRt4lBOAw9zA9_U" version="18.1.1" type="github">
   <diagram id="Re03vAp0vsInOCd_AFoT" name="Page-1">
-    <mxGraphModel dx="480" dy="2070" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="-192" dy="1607" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -19,28 +19,28 @@
         <mxCell id="PdBYYJ3HHPQtyADfa3vJ-172" value="+ 문의 ID: integer" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="PdBYYJ3HHPQtyADfa3vJ-1">
           <mxGeometry y="104" width="220" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="PdBYYJ3HHPQtyADfa3vJ-6" value="+ 문의 내용: text" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="PdBYYJ3HHPQtyADfa3vJ-1">
+        <mxCell id="PdBYYJ3HHPQtyADfa3vJ-4" value="+ 문의 작성자 ID: varchar(20)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="PdBYYJ3HHPQtyADfa3vJ-1">
           <mxGeometry y="130" width="220" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="PdBYYJ3HHPQtyADfa3vJ-7" value="+ 이미지: varchar(500)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="PdBYYJ3HHPQtyADfa3vJ-1">
+        <mxCell id="PdBYYJ3HHPQtyADfa3vJ-6" value="+ 문의 내용: text" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="PdBYYJ3HHPQtyADfa3vJ-1">
           <mxGeometry y="156" width="220" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="PdBYYJ3HHPQtyADfa3vJ-8" value="+ 문의 작성 일자: datetime" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="PdBYYJ3HHPQtyADfa3vJ-1">
+        <mxCell id="PdBYYJ3HHPQtyADfa3vJ-7" value="+ 이미지: varchar(500)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="PdBYYJ3HHPQtyADfa3vJ-1">
           <mxGeometry y="182" width="220" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="PdBYYJ3HHPQtyADfa3vJ-2" value="+ 상품 ID: Integer" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="PdBYYJ3HHPQtyADfa3vJ-1">
+        <mxCell id="PdBYYJ3HHPQtyADfa3vJ-8" value="+ 문의 작성 일자: datetime" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="PdBYYJ3HHPQtyADfa3vJ-1">
           <mxGeometry y="208" width="220" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="PdBYYJ3HHPQtyADfa3vJ-3" value="+ 상품 이름: varchar(200)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="PdBYYJ3HHPQtyADfa3vJ-1">
+        <mxCell id="PdBYYJ3HHPQtyADfa3vJ-2" value="+ 상품 ID: Integer" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="PdBYYJ3HHPQtyADfa3vJ-1">
           <mxGeometry y="234" width="220" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="PdBYYJ3HHPQtyADfa3vJ-39" value="+ 상품 카테고리: varchar(30)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="PdBYYJ3HHPQtyADfa3vJ-1">
+        <mxCell id="PdBYYJ3HHPQtyADfa3vJ-3" value="+ 상품 이름: varchar(200)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="PdBYYJ3HHPQtyADfa3vJ-1">
           <mxGeometry y="260" width="220" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="PdBYYJ3HHPQtyADfa3vJ-174" value="+ 상품 옵션: varchar(30)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="PdBYYJ3HHPQtyADfa3vJ-1">
+        <mxCell id="PdBYYJ3HHPQtyADfa3vJ-39" value="+ 상품 카테고리: varchar(30)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="PdBYYJ3HHPQtyADfa3vJ-1">
           <mxGeometry y="286" width="220" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="PdBYYJ3HHPQtyADfa3vJ-4" value="+ 회원 아이디: varchar(20)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="PdBYYJ3HHPQtyADfa3vJ-1">
+        <mxCell id="PdBYYJ3HHPQtyADfa3vJ-174" value="+ 상품 옵션: varchar(30)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="PdBYYJ3HHPQtyADfa3vJ-1">
           <mxGeometry y="312" width="220" height="26" as="geometry" />
         </mxCell>
         <mxCell id="PdBYYJ3HHPQtyADfa3vJ-28" value="+ 자주 묻는 질문: varchar(300)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="PdBYYJ3HHPQtyADfa3vJ-1">
